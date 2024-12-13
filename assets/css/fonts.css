@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Mosafin Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Mosafin Medium"), url("../fonts/mosafin/Mosafin-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Mosafin Semi Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Mosafin Semi Bold"), url("../fonts/mosafin/Mosafin-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Mosafin Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Mosafin Bold"), url("../fonts/mosafin/Mosafin-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Mosafin Extra Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Mosafin Extra Bold"),
+        url("../fonts/mosafin/Mosafin-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Mosafin Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Mosafin Black"), url("../fonts/mosafin/Mosafin-Black.woff") format("woff");
+}
