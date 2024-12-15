@@ -14,32 +14,464 @@
     <title>Grako</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header" style="z-index: 999;">
+        <div class="wrapper header__wrapper">
+            <div class="header__container">
+                <div class="header__mobile__button">
+                    <button id="toggleBtn" class="header__button">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </button>
+                </div>
+                <div class="header__logo">
+                    <img src="./logo.svg" alt="Grako">
+                    <p>Grako</p>
+                </div>
+                <div class="header__devider">
+                </div>
+                <div class="header__list">
+                    <div class="header__list__item">
+                        <p>Что такое Grako? </p>
+                    </div>
+                    <div class="header__list__item">
+                        <p>Почему Grako? </p>
+                    </div>
+                    <div class="header__list__item">
+                        <p>Новости Grako </p>
+                    </div>
+                    <div class="header__list__item">
+                        <p>Контакты </p>
+                    </div>
+                    <div class="header__list__item">
+                        <p>Утепление </p>
+                    </div>
+                </div>
+                <div class="header__links">
+                    <div class="header__lins__item">
+                        <img src="./assets/img/facebook.svg" alt="">
+                    </div>
+                    <div class="header__lins__item">
+                        <img src="./assets/img/twitter.svg" alt="">
+                    </div>
+                    <div class="header__lins__item">
+                        <img src="./assets/img/instagram.svg" alt="">
+                    </div>
+                </div>
+                <div class="header__lang">
+                    <div class="header__lang__item active">
+                        <p>EN</p>
+                    </div>
+                    <div class="devider__header__lang">
 
-    </header>
-    <main class="main">
-        <div class="wrapper">
-            
-        </div>
-        <section class="title">
-            <h1 class="main-title">III kartos šiltinimo <br> technologija</h1>
-            <h3 class="sub__title">Geriausias būdas taupyti Ir <span>Sutaupyti</span>! </h3>
-            <div class="title__action">
-                <div class="title__arrow title__theme__arrow">
-                    <img src="./assets/img/theme-arrow.svg" alt="">
-                </div>
-                <div class="title__arrow">
-                    <img src="./assets/img/Arrow.svg" alt="">
-                </div>
-                <div class="title__arrow title__theme__arrow title__theme__arrow__rev">
-                    <img src="./assets/img/theme-arrow.svg" alt="">
+                    </div>
+                    <div class="header__lang__item">
+                        <p>RU</p>
+                    </div>
                 </div>
             </div>
-            
-        </section>
-    </main>
-    <footer class="footer">
+            <div class="header__list__mobile">
+                <div class="header__list__item">
+                    <p>Что такое Grako? </p>
+                </div>
+                <div class="header__list__item">
+                    <p>Почему Grako? </p>
+                </div>
+                <div class="header__list__item">
+                    <p>Новости Grako </p>
+                </div>
+                <div class="header__list__item">
+                    <p>Контакты </p>
+                </div>
+                <div class="header__list__item">
+                    <p>Утепление </p>
+                </div>
+                <div class="header__links__mobile">
+                    <div class="header__lins__item">
+                        <img src="./assets/img/facebook.svg" alt="">
+                    </div>
+                    <div class="header__lins__item">
+                        <img src="./assets/img/twitter.svg" alt="">
+                    </div>
+                    <div class="header__lins__item">
+                        <img src="./assets/img/instagram.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
         
+        <section class="title section">
+            <div class="title__container">
+                <h1 class="main-title">III kartos šiltinimo <span>technologija</span></h1>
+                <h3 class="sub__title">Geriausias būdas taupyti Ir <span>Sutaupyti</span>! </h3>
+                <div class="title__action">
+                    <div class="title__arrow title__theme__arrow">
+                        <img src="./assets/img/theme-arrow.svg" alt="">
+                    </div>
+                    <div class="title__arrow title__arrow__animated">
+                        <img src="./assets/img/Arrow.svg" alt="Arrow">
+                        <img src="./assets/img/Arrow.svg" alt="Arrow">
+
+                    </div>
+                    <div class="title__arrow title__theme__arrow title__theme__arrow__rev">
+                        <img src="./assets/img/theme-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="title__image__container">
+            </div>
+            <div class="title__footer" style="z-index: 4;">
+                <div class="title__footer__item">
+                    <span>15</span>
+                    <p>Metu Patirtis</p>
+                </div>
+                <div class="devider"></div>
+                <div class="title__footer__item">
+                    <span>8</span>
+                    <p>Kaina</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="catalog section">
+            <div class="catalog__background">
+
+            </div>
+            <div class="wrapper catalog__wrapper">
+                <div class="catalog__list">
+                    <div class="catalog__item">
+                        <div>
+                            <img src="./assets/img/catalog-1.svg" alt="">
+                        </div>
+                        <h3 class="catalog__title">Модерн</h3>
+                        <div>
+                            <img class="catalog__item__image" src="./assets/img/catalog-item-1.png" alt="Modern">
+                        </div>
+                        <div class="catalog__disc">
+                            Поколение й запечатаны технологии изоляции. Новая эра технологий <span>изоляции</span>!
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div>
+                            <img src="./assets/img/catalog-2.svg" alt="">
+                        </div>
+                        <h3 class="catalog__title">Бережливый и дешевым</h3>
+                        <div>
+                            <img class="catalog__item__image" src="./assets/img/catalog-item-2.png" alt="Cheap">
+                        </div>
+                        <div class="catalog__disc">
+                            Утечка Главная
+                            отопление менее Пт/м2. Это один из самых <span>дешевых</span> способов нагрева.
+                        </div>
+                    </div>
+                    <div class="catalog__item">
+                        <div>
+                            <img src="./assets/img/catalog-3.svg" alt="">
+                        </div>
+                        <h3 class="catalog__title">Стоимость</h3>
+                        <div>
+                            <img class="catalog__item__image" src="./assets/img/catalog-item-3.png" alt="Method">
+                        </div>
+                        <div class="catalog__disc">
+                            Всегда выбирайте
+                            рациональные методы изоляции.... Этот метод <span>окупается</span> в течение нескольких лет
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="links section">
+            <div class="links__background">
+
+            </div>
+            <div class="wrapper links__wrapper">
+                <div class="links__list">
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Утепление стены</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Утепление крыши</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Утепление дома </p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Новости GRAKO</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Что такое GRAKO</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Утепление</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Почему технология GRAKO</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Фото - утепление дома</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Тепловизионный анализ</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Утепление потолка</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Утепление пола</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="links__item">
+                            <p>Утепление металлических ангаров</p>
+                            <img src="./assets/img/links__arrow.svg" alt="ARROW">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="question section">
+            <div class="question__background">
+
+            </div>
+            <div class="wrapper question__wrapper">
+                <div class="question__container">
+                    <div class="question__content">
+                        <div class="question__text">
+                            <div class="question__title">
+                                <h3>Вопросы</h3>
+                                <img src="./assets/img/ques-1.svg" alt="QUESTION">
+                            </div>
+                            <div class="question__block">
+                                <h3>Работы по утеплению выполняет ЗАО ExForma</h3>
+                                <p class="question__block__text">Работы по утеплению с использованием технологии GRAKO выполняют ее <span>официальные</span> представители в Литве ЗАО ExForma. У данного предприятия...</p>
+                            </div>
+                            <div class="question__block">
+                                <h3>GRAKO уже в Литве</h3>
+                                <p class="question__block__text">Мы рады тому, что можем представить Вам
+                                    современную технологию утепления III-его поколения GRAKO. С <span>помощью</span> этой современной, быстро...</p>
+                            </div>
+                        </div>
+                        <div class="question__vid">
+                            <div class="question__vid__title">
+                                <h3>Видео</h3>
+                                <img src="./assets/img/ques-2.svg" alt="grako-video">
+                            </div>
+                            <div class="question__vid__block">
+                                <iframe 
+                                    width="100%"
+                                    height="100%"
+                                    src="https://www.youtube.com/embed/VIDEO_ID" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question__footer">
+                        <div class="question__footer__title">
+                            <div class="question__footer__title__other">
+                                <h3>Другие видео</h3>
+                                <img src="./assets/img/ques__arrow.svg" alt="QUESTION ARROW">
+                            </div>
+                            <div class="question__footer__title__button">
+                                <button><p>Все новости</p> <img src="./assets/img/ques__arrow__btn.svg" alt=""></button>
+                            </div>
+
+                        </div>
+                        <div class="question__footer__func">
+                            <a href="">
+                                <div class="question__footer__func__item">
+                                    <p>Как утепляется крыша </p>
+                                    <img src="./assets/img/ques__arrow__func.svg" alt="LINKS">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="question__footer__func__item">
+                                    <p>Как утепляются стены </p>
+                                    <img src="./assets/img/ques__arrow__func.svg" alt="LINKS">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="question__footer__func__item">
+                                    <p>как утепляется пол </p>
+                                    <img src="./assets/img/ques__arrow__func.svg" alt="LINKS">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="question__footer__func__item">
+                                    <p>Как утепляются металлические ангары </p>
+                                    <img src="./assets/img/ques__arrow__func.svg" alt="LINKS">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact section">
+            <div class="wrapper contact__wrapper">
+                <div class="contact__slider">
+                    <div class="contact__slider__title">
+                        <h3 class="contact__slider__title__pc">Namo šiltinimas su GRAKO</h3>
+                        <div class="question__footer__title__button">
+                            <button><p>Все новости</p> <img src="./assets/img/ques__arrow__btn.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="contact__slider__place">
+                        <div class="contact__slider__item">
+                            <img src="./assets/img/contact-1.png" alt="IMAGE__GRAKO">
+                        </div>
+                        <div class="contact__slider__item">
+                            <img src="./assets/img/contact-2.png" alt="IMAGE__GRAKO">
+                        </div>
+                        <div class="contact__slider__item">
+                            <img src="./assets/img/contact-3.png" alt="IMAGE__GRAKO">
+                        </div>
+                        <div class="contact__slider__item">
+                            <img src="./assets/img/contact-1.png" alt="IMAGE__GRAKO">
+                        </div>
+                        <div class="contact__slider__item">
+                            <img src="./assets/img/contact-1.png" alt="IMAGE__GRAKO">
+                        </div>
+                        <div class="contact__slider__item">
+                            <img src="./assets/img/contact-1.png" alt="IMAGE__GRAKO">
+                        </div>
+                        <div class="contact__slider__item">
+                            <img src="./assets/img/contact-1.png" alt="IMAGE__GRAKO">
+                        </div>
+                    </div>
+
+                </div>
+                <form class="contact__form" method="post" action="#">
+                    <h2 class="contact__form__pc">КОНТАКТНАЯ <br> ФОРМА</h2>
+                    <h2 class="contact__form__mobile">КОНТАКТНАЯ ФОРМА</h2>
+                    <div class="contact__input">
+                        <div class="input__wrapper">
+                            <input type="text" id="name" placeholder="" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input__wrapper">
+                            <input type="text" id="email" placeholder="" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input__wrapper">
+                            <input type="text" id="message" placeholder="" required>
+                            <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div class="question__footer__title__button">
+                        <button class="contact__form__submit" type="submit"><p>Послать</p> <img src="./assets/img/ques__arrow__btn.svg" alt=""></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+       
+        
+    </main>
+    <!-- <br><br><br><br><br><br><br><br><br><br> -->
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <div class="footer__title">
+                <h2>Эффективная теплоизоляции дома</h2>
+                <p>Изоляция крыши, теплоизаляции дома, изоляция ангары с технологией изоляции поколения  III полиуретановая пена</p>
+
+            </div>
+            <div class="footer__block">
+                <div class="footer__block__title">
+                    <h2>КАК С НАМИ СВЯЗАТЬСЯ?</h2>
+                    <div class="footer__block__title__undertext">
+                        <a href="">
+                            <p>контакты</p>
+                        </a>
+                        <a href="">
+                            <p>утепление</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__block__content__wrapper">
+                    <div class="footer__block__content">
+                        <a href="">
+                            <p class="footer__block__content__questions">Что такое Grako? </p>
+                        </a>
+                        <a href="">
+                            <p class="footer__block__content__questions">Почему Grako? </p>
+                        </a>
+                        <a href="">
+                            <p class="footer__block__content__questions">Новости Grako </p>
+                        </a>
+                    </div>
+                    <div class="footer__block__content">
+                        <p>+370 608 22442 </p>
+                        <p>info@grako.lt </p>
+                        <div class="footer__block__content__links">
+                            <a href=""><img src="./assets/img/facebook.svg" alt="FACEBOOK"></a>
+                            <a href=""><img src="./assets/img/twitter.svg" alt="TWITTER"></a>
+                            <a href=""><img src="./assets/img/instagram.svg" alt="INSTAGRAMM"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="footer__copyrights">
+                <div class="footer__copyrights__item">
+                    Copyright © 2013 grako.lt Visos teisės saugomos.
+                </div>
+                <div class="footer__copyrights__item">
+                    Sprendimas: BT-Group: Internetinių parduotuvių kųrimas
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="./assets/js/libs/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/libs/slick.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.0/js/intlTelInput.min.js"
+            integrity="sha512-AMKR42wJW2vL/KYXHyQHc4d2oN0c8x4h8mvK3b+8nBsZgFhEiEx+oZRfckgRWZ7agTgnb17OfGtzw6en8f/A9A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./assets/js/header.js"></script>
+    <script src="./assets/js/animation.js"></script>
 </body>
 </html>
