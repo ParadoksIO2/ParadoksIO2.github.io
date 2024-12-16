@@ -18,4 +18,32 @@ $(document).ready(function () {
     });
 
     
+    const $header = $("#header");
+
+    // Изначально скрываем header
+    $header.css({
+        transform: "translateY(-100%)",
+        opacity: 0,
+        transition: "transform 0.5s ease, opacity 0.5s ease",
+    });
+
+    // Следим за прокруткой
+    $(window).on("scroll", function () {
+        const scrollTop = $(window).scrollTop();
+        const viewportHeight = $(window).height(); // Высота окна
+
+        if (scrollTop > viewportHeight) {
+            // Показываем header, если прокрутка больше 100vh
+            $header.css({
+                transform: "translateY(0)",
+                opacity: 1,
+            });
+        } else {
+            // Скрываем header, если прокрутка меньше 100vh
+            $header.css({
+                transform: "translateY(-100%)",
+                opacity: 0,
+            });
+        }
+    });
 });
