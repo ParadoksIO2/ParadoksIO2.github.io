@@ -7,6 +7,10 @@ html, body {
     overflow-x: hidden;
 }
 
+body a { 
+    color: #000;
+}
+
 .main { 
     scroll-snap-type: y mandatory; /* Включаем snap */
 }
@@ -26,8 +30,21 @@ html, body {
 
 .footer { 
     
-    
+    position: relative;
+    z-index: 6;
     background: #fff;
+}
+
+.header__list__item .active { 
+    color: var(--main-or);
+}
+
+.header__list__item a { 
+    color: #000;
+}
+
+.header__list__item.active a {
+    color: var(--main-or);
 }
 
 /* All */
@@ -900,8 +917,8 @@ html, body {
         top: 50%;
         left: 50%;
         z-index: 3;
-        width: 200%;
-        height: 200%;
+        width: 50%;
+        height: 50%;
     }
 
     .catalog__wrapper { 
@@ -924,6 +941,9 @@ html, body {
         flex-direction: column;
         gap: 10px;
         width: 100%;
+        opacity: 0; /* Начальное состояние */
+        transform: translateY(100px); /* Смещение вниз */
+        
     }
 
     .catalog__title { 
@@ -1065,12 +1085,12 @@ html, body {
 
 /* LINKS */
 
-@media screen and (min-width: 1504px) {
+@media screen and (min-width: 1704px) {
     .links { 
         height: 100vh;
         position: relative;
         
-        overflow: hidden;
+        
     }
 
     .links__background { 
@@ -1080,7 +1100,7 @@ html, body {
         transform: translate(-50%, -50%);
         width: 150%;
         height: 150%;
-        border: 50%;
+        border-radius: 50%;
         z-index: 4;
         background: #F95021;
     }
@@ -1098,15 +1118,23 @@ html, body {
 
     .links__list { 
         padding-top: 95px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px 60px;
+        display: flex;
+
+        gap: 120px;
+    }
+
+    .links__list__wrapper { 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
     }
 
     .links__item { 
         display: flex;
         justify-content: space-between;
-
+        gap: 10px;
+        align-items: center;
     }
 
     .links__item p { 
@@ -1122,22 +1150,22 @@ html, body {
     }    
 }
 
-@media screen and (max-width: 1503px) and (min-width: 1200px) {
+@media screen and (max-width: 1703px) and (min-width: 1200px) {
     .links { 
         height: 100vh;
         position: relative;
         
-        overflow: hidden;
+        
     }
 
     .links__background { 
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translateX(-50%, -50%);
         width: 150%;
         height: 150%;
-        border: 50%;
+        border-radius: 50%;
         z-index: 4;
         background: #F95021;
     }
@@ -1155,15 +1183,22 @@ html, body {
 
     .links__list { 
         padding-top: 95px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px 60px;
+        display: flex;
+
+        gap: 120px;
+    }
+
+    .links__list__wrapper { 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
     }
 
     .links__item { 
         display: flex;
         justify-content: space-between;
-
+        gap: 10px;
     }
 
     .links__item p { 
@@ -1296,10 +1331,10 @@ html, body {
 
 @media screen and (min-width: 1500px) {
     .question { 
-        height: 100vh;
+        
         position: relative;
         overflow: hidden;
-        
+        padding-top: 30px;
     }
 
     .question__background { 
@@ -1899,8 +1934,10 @@ html, body {
         border-radius: 15px;
         color: #fff;
         font-weight: 700;
-        padding: 10px 20px;
-        height: 57px;
+        padding: 10px 20px 10px 10px;
+        font-size: 15px;
+        
+        text-wrap: nowrap;
     }
 
     .question__footer__func { 
@@ -1930,6 +1967,15 @@ html, body {
 }
 
 /* CONTACT */
+
+
+.question__footer__title__button img {
+    transition: transform 0.3s ease;
+}
+
+.question__footer__title__button:hover img {
+    transform: translate(5px, -5px); /* Подпрыгивание вверх и вправо */
+}
 
 @media screen and (min-width:1500px) {
     .contact__wrapper { 
@@ -1965,6 +2011,7 @@ html, body {
         display: flex;
         gap: 30px;
         overflow-x: scroll;
+        scroll-behavior: smooth;
     }
 
     .contact__slider__item img { 
@@ -2065,6 +2112,7 @@ html, body {
     input:placeholder-shown {
         background-color: transparent; /* Убираем стандартный placeholder */
     }
+    
 }
 
 @media screen and (max-width: 1499px) and (min-width: 1200px) {
@@ -2101,6 +2149,7 @@ html, body {
         display: flex;
         gap: 30px;
         overflow-x: scroll;
+        scroll-behavior: smooth;
     }
 
     .contact__slider__item img { 
@@ -2237,6 +2286,7 @@ html, body {
         display: flex;
         gap: 20px;
         overflow-x: scroll;
+        scroll-behavior: smooth;
     }
 
     .contact__slider__item img { 
@@ -2376,6 +2426,7 @@ html, body {
         display: flex;
         gap: 20px;
         overflow-x: scroll;
+        scroll-behavior: smooth;
     }
 
     .contact__slider__item img { 
