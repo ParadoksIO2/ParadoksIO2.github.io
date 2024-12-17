@@ -1,0 +1,495 @@
+:root { 
+    --main-or: #FF3801;
+
+}
+
+@media screen and (min-width: 1700px) {
+    .question__block__link { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 37px;
+    }
+
+    .question__block__link::after { 
+        background-color: #fff;
+    }
+
+    .question__block__link__item { 
+        background: var(--main-or);
+        border-radius: 10px;
+        padding: 20px;
+        justify-content: space-between;
+        
+    }
+
+    .question__block__link__item p {
+        color: #fff;
+        font-weight:700;
+    }
+}
+
+@media screen and (max-width: 1699px) and (min-width: 1200px) {
+    
+    
+    .question__block__link { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 37px;
+    }
+
+    .question__block__link::after { 
+        background-color: #fff;
+    }
+
+    .question__block__link__item { 
+        background: var(--main-or);
+        border-radius: 10px;
+        padding: 10px 20px;
+        justify-content: space-between;
+        
+    }
+
+    .question__block__link__item p {
+        color: #fff;
+        font-weight:700;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 760px) {
+    .question__block__link { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 17px;
+    }
+
+    .question__block__link::after { 
+        background-color: #fff;
+    }
+
+    .question__block__link__item { 
+        background: var(--main-or);
+        border-radius: 10px;
+        padding: 10px 15px;
+        justify-content: space-between;
+        
+    }
+
+    .question__block__link__item p {
+        color: #fff;
+        font-weight:700;
+    }
+
+    .question__vid { 
+        height: calc(100vw / 16 * 9);
+    }
+}
+
+@media screen and (max-width: 759px) and (min-width: 300px) {
+    .question__block__link { 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px 10px;
+        justify-items: start;
+    }
+
+    .question__block__link::after { 
+        background-color: #fff;
+    }
+
+    .question__block__link__item { 
+        background: var(--main-or);
+        border-radius: 10px;
+        padding: 10px 15px;
+        justify-content: space-between;
+        
+    }
+
+    .question__block__link__item p {
+        color: #fff;
+        font-weight:700;
+    }
+
+    .question__vid { 
+       
+        height: calc(100% / 16 * 9);
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .hook { 
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hook__content { 
+        display: flex;
+        gap: 360px;
+    }
+
+    .hook__text { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__content h2 { 
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+
+    .hook__text p { 
+        font-size: 28px;
+        font-weight: 600;
+        color: #6C6C6C;
+    }
+
+    .hook__text span { 
+        color: var(--main-or);
+        font-weight: 700;
+    }
+
+    .hook__form__wrapper { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__form__item { 
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .hook__form { 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .hook__form__title { 
+        display: flex;
+        gap: 8px;
+
+    }
+
+    .hook__form__title p { 
+        font-weight: 700;
+    }
+
+    .hook__form__item input { 
+        height: 70px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }   
+
+    .hook__form__item textarea { 
+        height: 140px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }
+
+    .hook__form__item textarea:focus { 
+        outline: none;
+        border: none;
+    }
+
+    .hook__form__item__textarea { 
+        height: 100%;
+    }
+
+    .hook__form__item__textarea textarea { 
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1699px) and (min-width: 1200px) {
+    .hook { 
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hook__content { 
+        display: flex;
+        gap: 160px;
+    }
+
+    .hook__text { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__content h2 { 
+        font-size: 35px;
+        font-weight: 700;
+
+    }
+
+    .hook__text p { 
+        font-size: 22px;
+        font-weight: 600;
+        color: #6C6C6C;
+    }
+
+    .hook__text span { 
+        color: var(--main-or);
+        font-weight: 700;
+    }
+
+    .hook__form__wrapper { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__form__item { 
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .hook__form { 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .hook__form__title { 
+        display: flex;
+        gap: 8px;
+
+    }
+
+    .hook__form__title p { 
+        font-weight: 700;
+    }
+
+    .hook__form__item input { 
+        height: 70px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }   
+
+    .hook__form__item textarea { 
+        height: 140px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }
+
+    .hook__form__item textarea:focus { 
+        outline: none;
+        border: none;
+    }
+
+    .hook__form__item__textarea { 
+        height: 100%;
+    }
+
+    .hook__form__item__textarea textarea { 
+        height: 100%;
+        
+        resize: none;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 760px) {
+    .hook { 
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hook__content { 
+        display: flex;
+        gap: 50px;
+    }
+
+    .hook__text { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__content h2 { 
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+
+    .hook__text p { 
+        font-size: 19px;
+        font-weight: 600;
+        color: #6C6C6C;
+    }
+
+    .hook__text span { 
+        color: var(--main-or);
+        font-weight: 700;
+    }
+
+    .hook__form__wrapper { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__form__item { 
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .hook__form { 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .hook__form__title { 
+        display: flex;
+        gap: 8px;
+
+    }
+
+    .hook__form__title p { 
+        font-weight: 700;
+    }
+
+    .hook__form__item input { 
+        height: 70px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }   
+
+    .hook__form__item textarea { 
+        height: 140px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }
+
+    .hook__form__item textarea:focus { 
+        outline: none;
+        border: none;
+    }
+
+    .hook__form__item__textarea textarea { 
+        
+        
+        resize: none;
+    }
+}
+
+@media screen and (max-width: 759px) and (min-width: 300px) {
+    .hook { 
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hook__content { 
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hook__text { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__content h2 { 
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+
+    .hook__text p { 
+        font-size: 19px;
+        font-weight: 600;
+        color: #6C6C6C;
+    }
+
+    .hook__text span { 
+        color: var(--main-or);
+        font-weight: 700;
+    }
+
+    .hook__form__wrapper { 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hook__form__item { 
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .hook__form { 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .hook__form__title { 
+        display: flex;
+        gap: 8px;
+
+    }
+
+    .hook__form__title p { 
+        font-weight: 700;
+    }
+
+    .hook__form__item input { 
+        height: 70px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }   
+
+    .hook__form__item textarea { 
+        height: 140px;
+        background: #EBEBEB;
+        border-radius: 15px;
+        padding: 10px 20px;
+    }
+
+    .hook__form__item textarea:focus { 
+        outline: none;
+        border: none;
+    }
+
+    .hook__form__item__textarea textarea { 
+        
+        
+        resize: none;
+    }
+}

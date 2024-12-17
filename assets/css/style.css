@@ -13,6 +13,7 @@ body a {
 
 .main { 
     scroll-snap-type: y mandatory; /* Включаем snap */
+    width: 100vw;
 }
 
 .section { 
@@ -201,6 +202,10 @@ body a {
     
     .header__lang__item.active.header__lang__item p  { 
         color: var(--main-or);
+    }
+
+    .header__mobile__button { 
+        display: none;
     }
 }
 

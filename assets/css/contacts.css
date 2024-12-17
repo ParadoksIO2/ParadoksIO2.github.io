@@ -1,0 +1,9 @@
+@media screen and (min-width: 1200px) and (max-width: 1699px) {
+    .hook__content { 
+        gap: 50px;
+    }
+
+    .hook__text { 
+        gap: 10px;
+    }
+}

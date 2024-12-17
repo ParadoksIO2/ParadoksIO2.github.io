@@ -3,7 +3,7 @@
 
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1700px) {
     .question { 
         height: 100vh;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (max-width: 1499px) and (min-width: 1200px) {
+@media screen and (max-width: 1699px) and (min-width: 1200px) {
     .question { 
         height: 100vh;
     }
@@ -325,7 +325,7 @@
 
 /* INFO */
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1700px) {
     .info { 
         height: 100vh;
         position: relative;
@@ -414,7 +414,7 @@
     }
 }
 
-@media screen and (max-width: 1499px) and (min-width: 1200px) {
+@media screen and (max-width: 1699px) and (min-width: 1200px) {
     .info { 
         height: 100vh;
         position: relative;

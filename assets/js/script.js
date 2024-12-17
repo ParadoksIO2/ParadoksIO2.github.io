@@ -8,3 +8,11 @@ if ($(window).width() > 1203) {
         $('.header__button').toggleClass('active');
     });
 }
+
+
+$('.header__lang__item').click(function () {
+    // Убираем класс active у всех элементов
+    $('.header__lang__item').removeClass('active');
+    // Добавляем класс active к текущему элементу
+    $(this).addClass('active');
+});
