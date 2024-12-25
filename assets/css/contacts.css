@@ -1,0 +1,35 @@
+@media screen and (min-width: 1200px) and (max-width: 1699px) {
+    .hook__content { 
+        gap: 50px;
+    }
+
+    .hook__text { 
+        gap: 10px;
+    }
+
+
+}
+
+.contact__button { 
+    background: #9A9A9A;
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    max-width: max-content;
+    border-radius: 10px;
+    color: white;
+    font-size: 21px;
+}
+
+.contact__button img { 
+    width: 21px;
+}
+
+.question__block__link__item { 
+    padding: 20px;
+}
+
+.question div { 
+    overflow: hidden;
+}
